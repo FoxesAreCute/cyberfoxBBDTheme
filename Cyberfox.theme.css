@@ -5,14 +5,22 @@
  * @version 1
  */
 
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://rmkx.github.io/Poison/src/poison.css'); /*Main theme import, credit to rmkk*/
 
+
+:root {
+--font: 'VT323', monospace;
+
+}
 
 #app-mount .app-2rEoOp {
   background-color: transparent;
   background-size: cover;
-  background-image: url(http://173.47.243.243/xana_as.png); 
+  background-image: url(http://173.47.243.243/xana_as.png);
+
 }
-/* This is my IP. I request for you to use integrity and not to attack my main internet connection without prior authorization for pen testing, I am figuring out how to obscure it or I will implement a IPS to mitigate threats. In the mean time expect a LOT of unintentional downtime by skids. */
+ /* *This is my IP. I request for you to use integrity and not to attack my main internet connection without prior authorization for pen testing, I am figuring out how to obscure it or I will implement a IPS to mitigate threats. In the mean time expect a LOT of unintentional downtime by skids.* */
 
 .executedCommand-2GE3w2, .repliedMessage-VokQwo, .threadMessageAccessory-1pYyA- {
   margin-left: 17px;
